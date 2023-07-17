@@ -1,0 +1,39 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px; }
+  
+  .nav-item{
+    font-weight:bold;
+    padding-right: 30px;
+  }
+  .nav-item a{
+    color: black;
+  }
+  .nav-item a:hover{
+    color: gray;
+  }
+  .topBody{ 
+   border-top:1px solid black;
+   display: flex;
+   justify-content: center;
+   flex-direction: row-reverse;
+   padding: 0px 30px;
+  }
+  .image {
+    width: 50vw;
+    padding: 20px;
+  }
+  .imgae img{
+    width: max-content;
+  }
+  .content{
+    padding: 20px;
+    align-self: center;
+    width: 50vw;
+  }
+  .but{
+    padding: 10px 40px;
+    margin-top: 20px;
+  }
+  

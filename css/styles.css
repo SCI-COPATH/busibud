@@ -51,14 +51,17 @@ opacity: 1; */
 .midBody{
   background-color: #F8FAFC;
   padding:0px 30px;
+  margin: auto;
+  
 }
 .midBody h1{
   text-align: center;
 }
 .floating{
   display: flex;
-  padding: 20px;
-  justify-content: space-between  ;
+  padding:3vw;
+  margin: 0;
+  justify-content:center;
 }
 .floating-Box{
   padding: 30px;
@@ -66,6 +69,42 @@ opacity: 1; */
 }
 .floating-Box h5{
   text-align: center;
+}
+.body3{
+  position: relative;
+ 
+}
+.lastHedding{
+  margin: 0;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+.shapesec{
+  
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top:0px;
+  background-color: #F8FAFC ;
+}
+.body3Content{
+  padding: 0px 30px 0px 30px;
+  margin: 0px 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.feature{
+  padding: 20px;
+}
+.feature div{
+ width: 180px; 
+}
+.feature h5{
+  padding-top:10px;
+}
+.feature img{
+  height: 180px;
 }
 @media only screen and (max-width: 900px )and (min-width:601px){
   .topBody{
@@ -107,6 +146,9 @@ opacity: 1; */
     }
     .floating-Box{
       margin: 10px 15vw;
+    }
+    .body3Content{
+      flex-direction: column;
     }
 }
 @media only screen and (max-width:600px){
@@ -158,4 +200,16 @@ opacity: 1; */
     .floating-Box{
       margin: auto;
     }
+    .body3Content{
+      flex-direction: column;
+      margin: 0;
+      padding: 10px;
+    }
+    .feature div{
+      width: 80vw; 
+     }
+     
+     .feature img{
+       height: 60vw;
+     }
   }

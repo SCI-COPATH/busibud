@@ -1,3 +1,4 @@
+
 .logo {
   display: flex;
   justify-content: center;
@@ -54,13 +55,107 @@ opacity: 1; */
 .midBody h1{
   text-align: center;
 }
-/* .customeShape div{
-  width: 25vw;
-   background-color: brown; 
-  height: 25vh;
+.floating{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between  ;
 }
-.left1{
+.floating-Box{
+  padding: 30px;
+  margin: 20px;
+}
+.floating-Box h5{
+  text-align: center;
+}
+@media only screen and (max-width: 900px )and (min-width:601px){
+  .topBody{
+    position: relative;
+   
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
   
-} */
-
-
+   padding: 0px 50px;
+  }
+  .imgae{
+    width: 30vw;
+    
+  }
+  .imgae img{
+    width:90vw;
+    
+  }
+  
+  .content{
+    width: 100vw;
+    z-index: 2;
+  }
+  .customeShape{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  
+    z-index: 1;
+    
+    /* UI Properties */
+    /* background: #F8FAFC 0% 0% no-repeat padding-box;
+    opacity: 1; */
+    }
+    .floating{
+      text-align: center;
+      flex-direction: column;
+    }
+    .floating-Box{
+      margin: 10px 15vw;
+    }
+}
+@media only screen and (max-width:600px){
+ 
+  .topBody{
+    position: relative;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+  
+   /* padding: 0px 50px; */
+   padding: 0;
+  }
+  .imgae{
+    width: 30vw;
+    padding: 0;
+  }
+  .imgae img{
+    width:100vw;
+    overflow: hidden;
+    padding: 0;
+  }
+  
+  .content{
+    width: 100vw;
+    z-index: 2;
+  }
+  .customeShape{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  
+    z-index: 1;
+    
+    /* UI Properties */
+    /* background: #F8FAFC 0% 0% no-repeat padding-box;
+    opacity: 1; */
+    }
+    .midBody{
+      padding:2px;
+      
+    }
+    .floating{
+      text-align: center;
+      flex-direction: column;
+      margin: auto;
+    }
+    .floating-Box{
+      margin: auto;
+    }
+  }

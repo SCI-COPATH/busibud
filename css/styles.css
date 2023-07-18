@@ -47,6 +47,13 @@ z-index: 1;
 /* background: #F8FAFC 0% 0% no-repeat padding-box;
 opacity: 1; */
 }
+.midBody{
+  background-color: #F8FAFC;
+  padding:0px 30px;
+}
+.midBody h1{
+  text-align: center;
+}
 /* .customeShape div{
   width: 25vw;
    background-color: brown; 

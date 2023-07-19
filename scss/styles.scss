@@ -1,420 +1,522 @@
-body{
+body {
   font-family: 'Nunito Sans', sans-serif;
- }
-  .logo {
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  font-weight: normal;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.logo {
   display: flex;
   justify-content: center;
-  padding-top: 20px; }
-  
-  .nav-item{
-    font-weight:bold;
-    padding-right: 30px;
-  }
-  .nav-item a{
-    color: black;
-  }
-  .nav-item a:hover{
-    color: gray;
-  }
-  .topBody{ 
-   position: relative;
-   border-top:1px solid black;
-   display: flex;
-   justify-content: center;
-   flex-direction: row-reverse;
-   padding: 0px 30px;
-  }
-  .image {
-    width: 50vw;
-    padding: 20px;
-  }
-  .imgae img{
-    width: max-content;
-  }
-  .content{
-    z-index: 2;
-    padding: 20px;
-    align-self: center;
-    width: 50vw;
-  }
-  .but{
-    padding: 10px 40px;
-    margin-top: 20px;
-  }
-  .but2{
-    padding: 10px 40px;
-  }
-.customeShape{
-position: absolute;
-bottom: 0px;
-width: 100%;
-z-index: 1;
-/* UI Properties */
-/* background: #F8FAFC 0% 0% no-repeat padding-box;
+  padding-top: 20px;
+}
+
+.nav-item {
+  font-weight: bold;
+  padding-right: 30px;
+}
+
+.nav-item a {
+  color: black;
+}
+
+.nav-item a:hover {
+  color: gray;
+}
+
+.topBody {
+  position: relative;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  padding: 0px 30px;
+}
+
+.image {
+  width: 50vw;
+  padding: 20px;
+}
+
+.imgae img {
+  width: max-content;
+}
+
+.content {
+  z-index: 2;
+  padding: 20px;
+  align-self: center;
+  width: 50vw;
+}
+
+.but {
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+
+.but2 {
+  padding: 10px 40px;
+}
+
+.customeShape {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  z-index: 1;
+  /* UI Properties */
+  /* background: #F8FAFC 0% 0% no-repeat padding-box;
 opacity: 1; */
 }
-.midBody{
+
+.midBody {
   background-color: #F8FAFC;
-  padding:0px 30px;
+  padding: 0px 30px;
   margin: auto;
-  
+
 }
-.midBody h1{
+
+.midBody h1 {
   text-align: center;
 }
-.floating{
+
+.floating {
   display: flex;
-  padding:3vw;
+  padding: 3vw;
   margin: 0;
-  justify-content:center;
+  justify-content: center;
 }
-.floating-Box{
+
+.floating-Box {
   padding: 30px;
   margin: 20px;
 }
-.floating-Box h5{
+
+.floating-Box h5 {
   text-align: center;
 }
-.body3{
+
+.body3 {
   position: relative;
- 
+
 }
-.lastHedding{
+
+.lastHedding {
   margin: 0;
   padding-bottom: 20vh;
   text-align: center;
 
 }
-.shapesec{
-  
+
+.shapesec {
+
   position: absolute;
   width: 100%;
   z-index: -1;
-  top:0px;
-  background-color: #F8FAFC ;
+  top: 0px;
+  background-color: #F8FAFC;
 }
-.body3Content{
+
+.body3Content {
   padding: 0px 30px 0px 30px;
   margin: 0px 50px;
   display: flex;
   justify-content: space-evenly;
 }
-.feature{
+
+.feature {
   padding: 20px;
 }
-.feature div{
- width: 180px; 
+
+.feature div {
+  width: 180px;
 }
-.feature h5{
-  padding-top:10px;
+
+.feature h5 {
+  padding-top: 10px;
 }
-.feature img{
+
+.feature img {
   height: 180px;
 }
-.page4{
+
+.page4 {
   padding: 0px 50px 0px 50px;
 }
-.page4 h1{
+
+.page4 h1 {
   padding-top: 10vh;
   text-align: center;
 }
-.element{
+
+.element {
   padding: 50px;
   display: flex;
 }
-.data div{
+
+.data div {
   display: flex;
-  align-items: center; 
+  align-items: center;
 }
-.left{
-   flex-flow: row-reverse;
+
+.left {
+  flex-flow: row-reverse;
 }
-.ls{
+
+.ls {
   width: 70vw;
 }
-.rs{
+
+.rs {
   width: 150vw;
 }
-.data div img{
+
+.data div img {
   width: 50px;
   padding-right: 20px;
 }
-.floating-hedding{
+
+.floating-hedding {
   display: flex;
 }
-.floating-hedding img{
+
+.floating-hedding img {
   width: 64px;
   padding-right: 20px;
 }
-.floating-hedding h3{
+
+.floating-hedding h3 {
   align-self: center;
 }
-.flotingBox{
+
+.flotingBox {
   background-color: #F8FAFC;
   padding: 40px;
-  margin: 90px 2% ;
+  margin: 90px 2%;
   border-radius: 20px;
 }
-.star img{
+
+.star img {
   width: 15px;
 }
-.floating-hedd{
+
+.floating-hedd {
   display: flex;
   justify-content: space-between;
 }
-.logoandwrite{
+
+.logoandwrite {
   display: flex;
   justify-content: space-between;
 }
-.logoandwrite h6,.logoandwrite p{
+
+.logoandwrite h6, .logoandwrite p {
   padding: 0;
   margin: 0;
 }
 
-.floating-hedd p{
+.floating-hedd p {
   margin: 0;
 }
-.floating-hedd img{
- 
+
+.floating-hedd img {
+
   height: min-content;
 }
-.floating-hedd div{
+
+.floating-hedd div {
   align-items: center;
-  
+
 }
-.floating-content{
+
+.floating-content {
 
   position: relative;
   padding-bottom: 20vh;
 }
-.totalFloat{
+
+.totalFloat {
   position: absolute;
   display: flex;
   justify-content: space-between;
 }
-.floating-element{
- 
-  background-color:white;
+
+.floating-element {
+
+  background-color: white;
   padding: 10px;
   margin: 15px;
 }
-.floating-element p{
+
+.floating-element p {
   font-size: small;
   margin-top: 20px;
 
 }
-.logoandwrite div{
-  
+
+.logoandwrite div {
+
   padding-left: 10px;
 }
-.logoandwrite p{
+
+.logoandwrite p {
   margin: 0;
- 
+
 }
-.page5 h1{
+
+.page5 h1 {
   text-align: center;
   padding-bottom: 70px;
 
 }
-.cont{
+
+.cont {
   display: flex;
   justify-content: space-between;
 }
-.cont p{
+
+.cont p {
   text-align: center;
+  font-weight: bold;
 }
-.ele img{
+
+.ele img {
   width: 180px;
   height: min-content;
 }
-.f3 img{
+
+.f3 img {
   width: 90px;
 }
-.f3 p{
+
+.f3 p {
   padding-top: 15px;
 }
-.f1 p{
+
+.f1 p {
   padding-top: 30px;
 }
-.f1 img{
+
+.f1 img {
   background-color: #EEEEEE;
   box-shadow: #EEEEEE 0px 0px 5px 5px;
 }
-.page5{
-  padding:40px 50px;
+
+.page5 {
+  padding: 40px 50px;
   padding-top: 50vh;
- 
+
 }
-.footer{
+
+.footer {
   padding: 30vh 50px 10px 50px;
   background-color: black;
   color: white;
   text-align: center;
 }
-.footer-con{
+
+.footer-con {
   display: flex;
   justify-content: center;
 }
-.footer-con div{
+
+.footer-con div {
   font-size: x-large;
   font-weight: bold;
   padding-right: 5px;
 }
-.footer-con h6{
+
+.footer-con h6 {
   padding: 0;
   margin: 0;
   align-self: center;
 }
-@media only screen and (max-width: 900px )and (min-width:601px){
-  .topBody{
+
+@media only screen and (max-width: 900px)and (min-width:601px) {
+  .topBody {
     position: relative;
-   
-   display: flex;
-   justify-content: center;
-   flex-direction: row;
-  
-   padding: 0px 50px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    padding: 0px 50px;
   }
-  .imgae{
+
+  .imgae {
     width: 30vw;
-    
+
   }
-  .imgae img{
-    width:90vw;
-    
+
+  .imgae img {
+    width: 90vw;
+
   }
-  
-  .content{
+
+  .content {
     width: 100vw;
     z-index: 2;
   }
-  .customeShape{
+
+  .customeShape {
     position: absolute;
     left: 0px;
     bottom: 0px;
-  
+
     z-index: 1;
-    
+
     /* UI Properties */
     /* background: #F8FAFC 0% 0% no-repeat padding-box;
-    opacity: 1; */
-    }
-    .floating{
-      text-align: center;
-      flex-direction: column;
-    }
-    .floating-Box{
-      margin: 10px 15vw;
-    }
-    .body3Content{
-      flex-direction: column;
-    }
-    .totalFloat{
-     display: block;
-     width: 100%;
-    }
-    .floating-element{
-      width: 50vw;
-      margin: auto;
-    }
-    .page5{
-      padding:40px 50px;
-      padding-top: 100vh;
-     
-    }
+   opacity: 1; */
+  }
+
+  .floating {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .floating-Box {
+    margin: 10px 15vw;
+  }
+
+  .body3Content {
+    flex-direction: column;
+  }
+
+  .totalFloat {
+    display: block;
+    width: 100%;
+  }
+
+  .floating-element {
+    width: 50vw;
+    margin: auto;
+  }
+
+  .page5 {
+    padding: 40px 50px;
+    padding-top: 100vh;
+
+  }
 }
-@media only screen and (max-width:600px){
- 
-  .topBody{
+
+@media only screen and (max-width:600px) {
+
+  .topBody {
     position: relative;
     text-align: center;
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-  
-   /* padding: 0px 50px; */
-   padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    /* padding: 0px 50px; */
+    padding: 0;
   }
-  .imgae{
+
+  .imgae {
     width: 30vw;
     padding: 0;
   }
-  .imgae img{
-    width:100vw;
+
+  .imgae img {
+    width: 100vw;
     overflow: hidden;
     padding: 0;
   }
-  
-  .content{
+
+  .content {
     width: 100vw;
     z-index: 2;
   }
-  .customeShape{
+
+  .customeShape {
     position: absolute;
     left: 0px;
     bottom: 0px;
-  
+
     z-index: 1;
-    
+
     /* UI Properties */
     /* background: #F8FAFC 0% 0% no-repeat padding-box;
-    opacity: 1; */
-    }
-    .midBody{
-      padding:2px;
-      
-    }
-    .floating{
-      text-align: center;
-      flex-direction: column;
-      margin: auto;
-    }
-    .floating-Box{
-      margin: auto;
-    }
-    .body3Content{
-      flex-direction: column;
-      margin: 0;
-      padding: 10px;
-    }
-    .feature div{
-      width: 80vw; 
-     }
-     
-     .feature img{
-       height: 60vw;
-     }
-    .ls{
-      width: auto
-    }
-    .rs{
-      width: auto;
-    }
-    .element{
-      text-align: center;
-      padding: 50px 0px;
-    }
-    .floating-content{
-
-      position: relative;
-     padding-bottom: 10px;
-    }
-    .totalFloat{
-      display: block;
-      position:static;
-    }
-    .page4{
-      padding: 10px;
-    }
-    .page5{
-      padding:40px 0px;
-     
-     
-    }
-    .cont{
-      flex-direction: column;
-    }
-    .ele {
-      margin: auto;
-    }
+   opacity: 1; */
   }
+
+  .midBody {
+    padding: 2px;
+
+  }
+
+  .floating {
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .floating-Box {
+    margin: auto;
+  }
+
+  .body3Content {
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .feature div {
+    width: 80vw;
+  }
+
+  .feature img {
+    height: 60vw;
+  }
+
+  .ls {
+    width: auto
+  }
+
+  .rs {
+    width: auto;
+  }
+
+  .element {
+    text-align: center;
+    padding: 50px 0px;
+  }
+
+  .floating-content {
+
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  .totalFloat {
+    display: block;
+    position: static;
+  }
+
+  .page4 {
+    padding: 10px;
+  }
+
+  .page5 {
+    padding: 40px 0px;
+
+
+  }
+
+  .cont {
+    flex-direction: column;
+  }
+
+  .ele {
+    margin: auto;
+  }
+}

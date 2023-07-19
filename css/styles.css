@@ -1,5 +1,7 @@
-
-.logo {
+ body{
+  font-family: 'Nunito Sans', sans-serif;
+ }
+  .logo {
   display: flex;
   justify-content: center;
   padding-top: 20px; }
@@ -209,6 +211,60 @@ opacity: 1; */
   margin: 0;
  
 }
+.page5 h1{
+  text-align: center;
+  padding-bottom: 70px;
+
+}
+.cont{
+  display: flex;
+  justify-content: space-between;
+}
+.cont p{
+  text-align: center;
+}
+.ele img{
+  width: 180px;
+  height: min-content;
+}
+.f3 img{
+  width: 90px;
+}
+.f3 p{
+  padding-top: 15px;
+}
+.f1 p{
+  padding-top: 30px;
+}
+.f1 img{
+  background-color: #EEEEEE;
+  box-shadow: #EEEEEE 0px 0px 5px 5px;
+}
+.page5{
+  padding:40px 50px;
+  padding-top: 50vh;
+ 
+}
+.footer{
+  padding: 30vh 50px 10px 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.footer-con{
+  display: flex;
+  justify-content: center;
+}
+.footer-con div{
+  font-size: x-large;
+  font-weight: bold;
+  padding-right: 5px;
+}
+.footer-con h6{
+  padding: 0;
+  margin: 0;
+  align-self: center;
+}
 @media only screen and (max-width: 900px )and (min-width:601px){
   .topBody{
     position: relative;
@@ -260,6 +316,11 @@ opacity: 1; */
     .floating-element{
       width: 50vw;
       margin: auto;
+    }
+    .page5{
+      padding:40px 50px;
+      padding-top: 100vh;
+     
     }
 }
 @media only screen and (max-width:600px){
@@ -333,8 +394,27 @@ opacity: 1; */
       text-align: center;
       padding: 50px 0px;
     }
+    .floating-content{
+
+      position: relative;
+     padding-bottom: 10px;
+    }
     .totalFloat{
       display: block;
+      position:static;
     }
-
+    .page4{
+      padding: 10px;
+    }
+    .page5{
+      padding:40px 0px;
+     
+     
+    }
+    .cont{
+      flex-direction: column;
+    }
+    .ele {
+      margin: auto;
+    }
   }

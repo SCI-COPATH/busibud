@@ -150,11 +150,11 @@ opacity: 1; */
 .flotingBox{
   background-color: #F8FAFC;
   padding: 40px;
-  margin: 90px 10vw ;
+  margin: 90px 2% ;
   border-radius: 20px;
 }
 .star img{
-  width: 20px;
+  width: 15px;
 }
 .floating-hedd{
   display: flex;
@@ -173,22 +173,41 @@ opacity: 1; */
   margin: 0;
 }
 .floating-hedd img{
-
+ 
   height: min-content;
 }
 .floating-hedd div{
   align-items: center;
+  
 }
 .floating-content{
 
   position: relative;
   padding-bottom: 20vh;
 }
-.floating-element{
+.totalFloat{
   position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+.floating-element{
+ 
   background-color:white;
   padding: 10px;
   margin: 15px;
+}
+.floating-element p{
+  font-size: small;
+  margin-top: 20px;
+
+}
+.logoandwrite div{
+  
+  padding-left: 10px;
+}
+.logoandwrite p{
+  margin: 0;
+ 
 }
 @media only screen and (max-width: 900px )and (min-width:601px){
   .topBody{
@@ -233,6 +252,14 @@ opacity: 1; */
     }
     .body3Content{
       flex-direction: column;
+    }
+    .totalFloat{
+     display: block;
+     width: 100%;
+    }
+    .floating-element{
+      width: 50vw;
+      margin: auto;
     }
 }
 @media only screen and (max-width:600px){
@@ -305,6 +332,9 @@ opacity: 1; */
     .element{
       text-align: center;
       padding: 50px 0px;
+    }
+    .totalFloat{
+      display: block;
     }
 
   }

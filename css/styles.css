@@ -137,6 +137,59 @@ opacity: 1; */
   width: 50px;
   padding-right: 20px;
 }
+.floating-hedding{
+  display: flex;
+}
+.floating-hedding img{
+  width: 64px;
+  padding-right: 20px;
+}
+.floating-hedding h3{
+  align-self: center;
+}
+.flotingBox{
+  background-color: #F8FAFC;
+  padding: 40px;
+  margin: 90px 10vw ;
+  border-radius: 20px;
+}
+.star img{
+  width: 20px;
+}
+.floating-hedd{
+  display: flex;
+  justify-content: space-between;
+}
+.logoandwrite{
+  display: flex;
+  justify-content: space-between;
+}
+.logoandwrite h6,.logoandwrite p{
+  padding: 0;
+  margin: 0;
+}
+
+.floating-hedd p{
+  margin: 0;
+}
+.floating-hedd img{
+
+  height: min-content;
+}
+.floating-hedd div{
+  align-items: center;
+}
+.floating-content{
+
+  position: relative;
+  padding-bottom: 20vh;
+}
+.floating-element{
+  position: absolute;
+  background-color:white;
+  padding: 10px;
+  margin: 15px;
+}
 @media only screen and (max-width: 900px )and (min-width:601px){
   .topBody{
     position: relative;
@@ -243,4 +296,15 @@ opacity: 1; */
      .feature img{
        height: 60vw;
      }
+    .ls{
+      width: auto
+    }
+    .rs{
+      width: auto;
+    }
+    .element{
+      text-align: center;
+      padding: 50px 0px;
+    }
+
   }
